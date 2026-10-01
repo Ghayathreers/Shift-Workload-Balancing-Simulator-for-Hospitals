@@ -1,0 +1,9 @@
+Case,Failure mode,Expected,Observed,Passed
+F0,Control: a safe transfer exists,Transfer ACCEPTED (E4 Emergency -> ICU),1 transfer(s) accepted,True
+F1,No qualified nurse is available,No transfer; unit-level message says no nurse with the required skill is available,Transfer rejected safely: Skill mismatch,True
+F2,Moving the nurse would leave the source below minimum staffing,Transfer rejected (source unit below minimum staffing),"Transfer rejected safely: Skill mismatch, Source unit below minimum staffing",True
+F3,Destination skill requirement not satisfied,Transfer rejected (skill mismatch),Transfer rejected safely: Skill mismatch,True
+F4,Qualified nurse is unavailable for the shift,Transfer rejected (nurse unavailable),"Transfer rejected safely: Nurse unavailable, Skill mismatch",True
+F5a,Skill information is missing (nurse without a primary skill),Recommendation unavailable; nothing transferred,Recommendation unavailable. Reason: Required staffing/skill information is incomplete.,True
+F5b,Roster entry is missing for the only qualified nurse,Transfer rejected (missing roster data),"Transfer rejected safely: Missing roster/skill data, Skill mismatch",True
+F6,Destination would be over-supplied,Transfer rejected (destination over-supplied),"Transfer rejected safely: Destination over-supplied, Skill mismatch",True

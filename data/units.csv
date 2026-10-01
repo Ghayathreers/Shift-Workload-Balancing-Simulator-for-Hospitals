@@ -1,0 +1,6 @@
+unit_id,unit_name,bed_capacity,required_skill,occupied_beds,minimum_staff
+U1,ICU,20,ICU,14,8
+U2,Emergency,40,Emergency,36,12
+U3,General Ward,200,General,173,48
+U4,Pediatrics,50,Pediatrics,40,9
+U5,Surgical Ward,70,Surgical,56,19

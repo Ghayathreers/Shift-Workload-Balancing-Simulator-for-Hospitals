@@ -1,0 +1,10 @@
+Scenario,Baseline condition,Target,Measured result,Difference,Met
+Normal Day,6 of 15 unit-shifts overloaded; mean |ratio-1| = 0.119; max ratio = 1.07,Overloaded unit-shifts after <= before,1 (before 6),-5,True
+Normal Day,6 of 15 unit-shifts overloaded; mean |ratio-1| = 0.119; max ratio = 1.07,Mean |ratio-1| reduced by >= 15%,18.1% reduction,+3.1 percentage points,True
+Normal Day,6 of 15 unit-shifts overloaded; mean |ratio-1| = 0.119; max ratio = 1.07,Safety violations = 0,0,+0,True
+Emergency Surge,7 of 15 unit-shifts overloaded; mean |ratio-1| = 0.312; max ratio = 1.81,Overloaded unit-shifts after <= before,6 (before 7),-1,True
+Emergency Surge,7 of 15 unit-shifts overloaded; mean |ratio-1| = 0.312; max ratio = 1.81,Mean |ratio-1| reduced by >= 10%,86.6% reduction,+76.6 percentage points,True
+Emergency Surge,7 of 15 unit-shifts overloaded; mean |ratio-1| = 0.312; max ratio = 1.81,Safety violations = 0,0,+0,True
+Staff Shortage,14 of 15 unit-shifts overloaded; mean |ratio-1| = 0.216; max ratio = 1.58,Overloaded unit-shifts after <= before,12 (before 14),-2,True
+Staff Shortage,14 of 15 unit-shifts overloaded; mean |ratio-1| = 0.216; max ratio = 1.58,Mean |ratio-1| reduced by >= 10%,38.3% reduction,+28.3 percentage points,True
+Staff Shortage,14 of 15 unit-shifts overloaded; mean |ratio-1| = 0.216; max ratio = 1.58,Safety violations = 0,0,+0,True

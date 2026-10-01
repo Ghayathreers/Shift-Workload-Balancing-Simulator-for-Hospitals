@@ -1,0 +1,10 @@
+Scenario,shift,legacy_recommendations,nurses_used_twice,units_pushed_below_minimum
+Normal Day,Morning,2,0,0
+Normal Day,Evening,1,0,0
+Normal Day,Night,2,0,0
+Emergency Surge,Morning,2,0,0
+Emergency Surge,Evening,2,0,0
+Emergency Surge,Night,3,0,0
+Staff Shortage,Morning,3,0,0
+Staff Shortage,Evening,4,0,0
+Staff Shortage,Night,1,0,0

@@ -1,0 +1,11 @@
+Scenario,Reason,Candidates
+Normal Day,Skill mismatch,699
+Normal Day,Nurse unavailable,104
+Normal Day,No workload improvement,22
+Emergency Surge,Skill mismatch,749
+Emergency Surge,Nurse unavailable,128
+Emergency Surge,No workload improvement,36
+Staff Shortage,Skill mismatch,1047
+Staff Shortage,Nurse unavailable,648
+Staff Shortage,No workload improvement,94
+Staff Shortage,Source unit below minimum staffing,21
